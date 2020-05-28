@@ -1,0 +1,388 @@
+{
+  "options": [
+    {
+      "legend": {"data": [
+        "Chrome",
+        "Firefox",
+        "Safari",
+        "IE9+",
+        "IE8-"
+      ]},
+      "series": [{
+        "data": [
+          {
+            "name": "Chrome",
+            "value": 208
+          },
+          {
+            "name": "Firefox",
+            "value": 224
+          },
+          {
+            "name": "Safari",
+            "value": 352
+          },
+          {
+            "name": "IE9+",
+            "value": 656
+          },
+          {
+            "name": "IE8-",
+            "value": 1288
+          }
+        ],
+        "center": [
+          "50%",
+          "45%"
+        ],
+        "name": "浏览器（数据纯属虚构）",
+        "type": "pie",
+        "radius": "50%"
+      }],
+      "tooltip": {
+        "formatter": "{a} <br/>{b} : {c} ({d}%)",
+        "trigger": "item"
+      },
+      "toolbox": {
+        "feature": {
+          "saveAsImage": {"show": true},
+          "restore": {"show": true},
+          "magicType": {
+            "show": true,
+            "type": [
+              "pie",
+              "funnel"
+            ],
+            "option": {"funnel": {
+              "max": 1700,
+              "x": "25%",
+              "width": "50%",
+              "funnelAlign": "left"
+            }}
+          },
+          "dataView": {
+            "show": true,
+            "readOnly": false
+          },
+          "mark": {"show": true}
+        },
+        "show": true
+      },
+      "title": {
+        "subtext": "纯属虚构",
+        "text": "浏览器占比变化"
+      }
+    },
+    {"series": [{
+      "data": [
+        {
+          "name": "Chrome",
+          "value": 336
+        },
+        {
+          "name": "Firefox",
+          "value": 288
+        },
+        {
+          "name": "Safari",
+          "value": 384
+        },
+        {
+          "name": "IE9+",
+          "value": 672
+        },
+        {
+          "name": "IE8-",
+          "value": 1296
+        }
+      ],
+      "name": "浏览器（数据纯属虚构）",
+      "type": "pie"
+    }]},
+    {"series": [{
+      "data": [
+        {
+          "name": "Chrome",
+          "value": 464
+        },
+        {
+          "name": "Firefox",
+          "value": 352
+        },
+        {
+          "name": "Safari",
+          "value": 416
+        },
+        {
+          "name": "IE9+",
+          "value": 688
+        },
+        {
+          "name": "IE8-",
+          "value": 1304
+        }
+      ],
+      "name": "浏览器（数据纯属虚构）",
+      "type": "pie"
+    }]},
+    {"series": [{
+      "data": [
+        {
+          "name": "Chrome",
+          "value": 592
+        },
+        {
+          "name": "Firefox",
+          "value": 416
+        },
+        {
+          "name": "Safari",
+          "value": 448
+        },
+        {
+          "name": "IE9+",
+          "value": 704
+        },
+        {
+          "name": "IE8-",
+          "value": 1312
+        }
+      ],
+      "name": "浏览器（数据纯属虚构）",
+      "type": "pie"
+    }]},
+    {"series": [{
+      "data": [
+        {
+          "name": "Chrome",
+          "value": 720
+        },
+        {
+          "name": "Firefox",
+          "value": 480
+        },
+        {
+          "name": "Safari",
+          "value": 480
+        },
+        {
+          "name": "IE9+",
+          "value": 720
+        },
+        {
+          "name": "IE8-",
+          "value": 1320
+        }
+      ],
+      "name": "浏览器（数据纯属虚构）",
+      "type": "pie"
+    }]},
+    {"series": [{
+      "data": [
+        {
+          "name": "Chrome",
+          "value": 848
+        },
+        {
+          "name": "Firefox",
+          "value": 544
+        },
+        {
+          "name": "Safari",
+          "value": 512
+        },
+        {
+          "name": "IE9+",
+          "value": 736
+        },
+        {
+          "name": "IE8-",
+          "value": 1328
+        }
+      ],
+      "name": "浏览器（数据纯属虚构）",
+      "type": "pie"
+    }]},
+    {"series": [{
+      "data": [
+        {
+          "name": "Chrome",
+          "value": 976
+        },
+        {
+          "name": "Firefox",
+          "value": 608
+        },
+        {
+          "name": "Safari",
+          "value": 544
+        },
+        {
+          "name": "IE9+",
+          "value": 752
+        },
+        {
+          "name": "IE8-",
+          "value": 1336
+        }
+      ],
+      "name": "浏览器（数据纯属虚构）",
+      "type": "pie"
+    }]},
+    {"series": [{
+      "data": [
+        {
+          "name": "Chrome",
+          "value": 1104
+        },
+        {
+          "name": "Firefox",
+          "value": 672
+        },
+        {
+          "name": "Safari",
+          "value": 576
+        },
+        {
+          "name": "IE9+",
+          "value": 768
+        },
+        {
+          "name": "IE8-",
+          "value": 1344
+        }
+      ],
+      "name": "浏览器（数据纯属虚构）",
+      "type": "pie"
+    }]},
+    {"series": [{
+      "data": [
+        {
+          "name": "Chrome",
+          "value": 1232
+        },
+        {
+          "name": "Firefox",
+          "value": 736
+        },
+        {
+          "name": "Safari",
+          "value": 608
+        },
+        {
+          "name": "IE9+",
+          "value": 784
+        },
+        {
+          "name": "IE8-",
+          "value": 1352
+        }
+      ],
+      "name": "浏览器（数据纯属虚构）",
+      "type": "pie"
+    }]},
+    {"series": [{
+      "data": [
+        {
+          "name": "Chrome",
+          "value": 1360
+        },
+        {
+          "name": "Firefox",
+          "value": 800
+        },
+        {
+          "name": "Safari",
+          "value": 640
+        },
+        {
+          "name": "IE9+",
+          "value": 800
+        },
+        {
+          "name": "IE8-",
+          "value": 1360
+        }
+      ],
+      "name": "浏览器（数据纯属虚构）",
+      "type": "pie"
+    }]},
+    {"series": [{
+      "data": [
+        {
+          "name": "Chrome",
+          "value": 1488
+        },
+        {
+          "name": "Firefox",
+          "value": 864
+        },
+        {
+          "name": "Safari",
+          "value": 672
+        },
+        {
+          "name": "IE9+",
+          "value": 816
+        },
+        {
+          "name": "IE8-",
+          "value": 1368
+        }
+      ],
+      "name": "浏览器（数据纯属虚构）",
+      "type": "pie"
+    }]},
+    {"series": [{
+      "data": [
+        {
+          "name": "Chrome",
+          "value": 1616
+        },
+        {
+          "name": "Firefox",
+          "value": 928
+        },
+        {
+          "name": "Safari",
+          "value": 704
+        },
+        {
+          "name": "IE9+",
+          "value": 832
+        },
+        {
+          "name": "IE8-",
+          "value": 1376
+        }
+      ],
+      "name": "浏览器（数据纯属虚构）",
+      "type": "pie"
+    }]}
+  ],
+  "timeline": {
+    "data": [
+      "2013-01-01",
+      "2013-02-01",
+      "2013-03-01",
+      "2013-04-01",
+      "2013-05-01",
+      {
+        "symbol": "emptyStar6",
+        "symbolSize": 8,
+        "name": "2013-06-01"
+      },
+      "2013-07-01",
+      "2013-08-01",
+      "2013-09-01",
+      "2013-10-01",
+      "2013-11-01",
+      {
+        "symbol": "star6",
+        "symbolSize": 8,
+        "name": "2013-12-01"
+      }
+    ],
+    "label": {}
+  }
+}

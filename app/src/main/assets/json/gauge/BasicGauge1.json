@@ -1,0 +1,66 @@
+{
+  "series": [{
+    "pointer": {
+      "color": "rgba(255, 255, 255, 0.8)",
+      "width": 50,
+      "length": "90%"
+    },
+    "startAngle": 180,
+    "data": [{
+      "name": "完成率",
+      "value": 50
+    }],
+    "center": [
+      "50%",
+      "90%"
+    ],
+    "endAngle": 0,
+    "type": "gauge",
+    "title": {
+      "offsetCenter": [
+        0,
+        "-60%"
+      ],
+      "show": true,
+      "textStyle": {
+        "color": "#fff",
+        "fontSize": 30
+      }
+    },
+    "axisLabel": {"textStyle": {
+      "color": "#fff",
+      "fontSize": 15,
+      "fontWeight": "bolder"
+    }},
+    "axisLine": {"lineStyle": {"width": 200}},
+    "name": "业务指标",
+    "axisTick": {
+      "length": 12,
+      "splitNumber": 10
+    },
+    "detail": {
+      "offsetCenter": [
+        0,
+        -40
+      ],
+      "formatter": "{value}%",
+      "backgroundColor": "rgba(0,0,0,0)",
+      "borderColor": "#ccc",
+      "borderWidth": 0,
+      "show": true,
+      "width": 100,
+      "textStyle": {"fontSize": 50},
+      "height": 40
+    },
+    "radius": 320
+  }],
+  "tooltip": {"formatter": "{a} <br/>{b} : {c}%"},
+  "toolbox": {
+    "feature": {
+      "saveAsImage": {"show": true},
+      "restore": {"show": true},
+      "mark": {"show": true}
+    },
+    "show": true
+  }
+}

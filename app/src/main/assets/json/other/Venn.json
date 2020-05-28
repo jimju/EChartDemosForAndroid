@@ -1,0 +1,67 @@
+{
+  "calculable": false,
+  "series": [{
+    "data": [
+      {
+        "name": "访问",
+        "value": 100
+      },
+      {
+        "name": "咨询",
+        "value": 50
+      },
+      {
+        "name": "公共",
+        "value": 20
+      }
+    ],
+    "name": "韦恩图",
+    "itemStyle": {
+      "normal": {
+        "label": {
+          "show": true,
+          "textStyle": {
+            "fontFamily": "Arial, Verdana, sans-serif",
+            "fontSize": 16,
+            "fontStyle": "italic",
+            "fontWeight": "bolder"
+          }
+        },
+        "labelLine": {
+          "lineStyle": {
+            "width": 1,
+            "type": "solid"
+          },
+          "show": false,
+          "length": 10
+        }
+      },
+      "emphasis": {
+        "borderColor": "#996699",
+        "color": "#cc99cc",
+        "borderWidth": 3
+      }
+    },
+    "type": "venn"
+  }],
+  "tooltip": {
+    "formatter": "{b}: {c}",
+    "trigger": "item"
+  },
+  "toolbox": {
+    "feature": {
+      "saveAsImage": {"show": true},
+      "restore": {"show": true},
+      "dataView": {
+        "show": true,
+        "readOnly": false
+      },
+      "mark": {"show": true}
+    },
+    "show": true
+  },
+  "title": {
+    "subtext": "各个数据的集合",
+    "text": "访问 vs 咨询"
+  }
+}

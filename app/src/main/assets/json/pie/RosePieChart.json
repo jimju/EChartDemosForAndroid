@@ -1,0 +1,137 @@
+{
+  "calculable": true,
+  "legend": {
+    "data": [
+      "rose1",
+      "rose2",
+      "rose3",
+      "rose4",
+      "rose5",
+      "rose6",
+      "rose7",
+      "rose8"
+    ],
+    "x": "center",
+    "y": "bottom"
+  },
+  "series": [
+    {
+      "data": [
+        {
+          "name": "rose1",
+          "value": 10
+        },
+        {
+          "name": "rose2",
+          "value": 5
+        },
+        {
+          "name": "rose3",
+          "value": 15
+        },
+        {
+          "name": "rose4",
+          "value": 25
+        },
+        {
+          "name": "rose5",
+          "value": 20
+        },
+        {
+          "name": "rose6",
+          "value": 35
+        },
+        {
+          "name": "rose7",
+          "value": 30
+        },
+        {
+          "name": "rose8",
+          "value": 40
+        }
+      ],
+      "max": 40,
+      "center": [
+        "25%",
+        200
+      ],
+      "roseType": "radius",
+      "name": "半径模式",
+      "width": "40%",
+      "itemStyle": {
+        "normal": {
+          "label": {"show": false},
+          "labelLine": {"show": false}
+        },
+        "emphasis": {
+          "label": {"show": true},
+          "labelLine": {"show": true}
+        }
+      },
+      "type": "pie",
+      "radius": [
+        20,
+        110
+      ]
+    },
+    {
+      "data": [
+        {
+          "name": "rose1",
+          "value": 10
+        },
+        {
+          "name": "rose2",
+          "value": 5
+        },
+        {
+          "name": "rose3",
+          "value": 15
+        },
+        {
+          "name": "rose4",
+          "value": 25
+        },
+        {
+          "name": "rose5",
+          "value": 20
+        },
+        {
+          "name": "rose6",
+          "value": 35
+        },
+        {
+          "name": "rose7",
+          "value": 30
+        },
+        {
+          "name": "rose8",
+          "value": 40
+        }
+      ],
+      "max": 40,
+      "center": [
+        "75%",
+        200
+      ],
+      "roseType": "area",
+      "name": "面积模式",
+      "x": "50%",
+      "sort": "ascending",
+      "type": "pie",
+      "radius": [
+        30,
+        110
+      ]
+    }
+  ],
+  "tooltip": {
+    "formatter": "{a} <br/>{b} : {c} ({d}%)",
+    "trigger": "item"
+  },
+  "title": {
+    "subtext": "纯属虚构",
+    "x": "left",
+    "text": "南丁格尔玫瑰图"
+  }
+}

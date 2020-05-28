@@ -1,0 +1,162 @@
+{
+  "calculable": false,
+  "series": [{
+    "symbol": "circle",
+    "orient": "horizontal",
+    "data": [{
+      "symbol": "image://http://www.iconpng.com/png/ecommerce-business/iphone.png",
+      "symbolSize": [
+        90,
+        70
+      ],
+      "children": [
+        {
+          "symbol": "image://http://pic.58pic.com/58pic/12/36/51/66d58PICMUV.jpg",
+          "symbolSize": [
+            60,
+            60
+          ],
+          "children": [
+            {
+              "symbol": "circle",
+              "symbolSize": 20,
+              "name": "小米1",
+              "itemStyle": {
+                "normal": {
+                  "color": "#fa6900",
+                  "label": {
+                    "show": true,
+                    "position": "right"
+                  }
+                },
+                "emphasis": {
+                  "borderWidth": 0,
+                  "label": {"show": false}
+                }
+              },
+              "value": 4
+            },
+            {
+              "symbol": "circle",
+              "symbolSize": 20,
+              "name": "小米2",
+              "itemStyle": {
+                "normal": {
+                  "borderColor": "#cc66ff",
+                  "color": "#fa6900",
+                  "borderWidth": 2,
+                  "label": {
+                    "formatter": "{b}",
+                    "show": true,
+                    "position": "right"
+                  }
+                },
+                "emphasis": {"borderWidth": 0}
+              },
+              "value": 4
+            },
+            {
+              "symbol": "circle",
+              "symbolSize": 20,
+              "name": "小米3",
+              "itemStyle": {
+                "normal": {
+                  "borderColor": "#999966",
+                  "color": "#fa6900",
+                  "brushType": "stroke",
+                  "borderWidth": 1,
+                  "label": {"position": "right"}
+                },
+                "emphasis": {"borderWidth": 0}
+              },
+              "value": 2
+            }
+          ],
+          "name": "小米",
+          "itemStyle": {"normal": {"label": {"show": false}}},
+          "value": 4
+        },
+        {
+          "symbol": "image://http://www.viastreaming.com/images/apple_logo2.png",
+          "symbolSize": [
+            60,
+            60
+          ],
+          "name": "苹果",
+          "itemStyle": {"normal": {"label": {"show": false}}},
+          "value": 4
+        },
+        {
+          "symbol": "image://http://market.huawei.com/hwgg/logo_cn/download/logo.jpg",
+          "symbolSize": [
+            60,
+            60
+          ],
+          "name": "华为",
+          "itemStyle": {"normal": {"label": {"show": false}}},
+          "value": 2
+        },
+        {
+          "symbol": "image://http://www.lenovo.com.cn/HomeUpload/Home001/6d94ee9a20140714.jpg",
+          "symbolSize": [
+            100,
+            40
+          ],
+          "name": "联想",
+          "itemStyle": {"normal": {"label": {"show": false}}},
+          "value": 2
+        }
+      ],
+      "name": "手机",
+      "itemStyle": {"normal": {"label": {"show": false}}},
+      "value": 6
+    }],
+    "symbolSize": 40,
+    "name": "树图",
+    "nodePadding": 20,
+    "itemStyle": {
+      "normal": {
+        "lineStyle": {
+          "color": "#000",
+          "width": 1,
+          "type": "broken"
+        },
+        "label": {
+          "show": true,
+          "position": "inside",
+          "textStyle": {
+            "color": "#cc9999",
+            "fontSize": 15,
+            "fontWeight": "bolder"
+          }
+        }
+      },
+      "emphasis": {"label": {"show": true}}
+    },
+    "type": "tree",
+    "rootLocation": {
+      "x": 100,
+      "y": "60%"
+    }
+  }],
+  "tooltip": {
+    "formatter": "{b}: {c}",
+    "trigger": "item"
+  },
+  "toolbox": {
+    "feature": {
+      "saveAsImage": {"show": true},
+      "restore": {"show": true},
+      "dataView": {
+        "show": true,
+        "readOnly": false
+      },
+      "mark": {"show": true}
+    },
+    "show": true
+  },
+  "title": {
+    "subtext": "线、节点样式",
+    "text": "手机品牌"
+  }
+}

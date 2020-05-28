@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jimju.echartdemo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.activity.LineDemosActivity"/>
+        <activity android:name=".ui.activity.LineExamplesActivity" android:label="Line Examples"/>
+        <activity android:name=".ui.activity.BarExampleActivity"  android:label="Bar Examples"/>
+        <activity android:name=".ui.activity.ScatterExamplesActivity" android:label="Scatter Examples"/>
+        <activity android:name=".ui.activity.KLineExamplesActivity" android:label="KLine Examples"/>
+        <activity android:name=".ui.activity.PieExamplesActivity" android:label="Pie Examples"/>
+        <activity android:name=".ui.activity.RadarExamplesActivity" android:label="Radar Examples"/>
+        <activity android:name=".ui.activity.ChordExamplesActivity" android:label="Chord Examples"/>
+        <activity android:name=".ui.activity.ForceExamplesActivity" android:label="Force Examples"/>
+        <activity android:name=".ui.activity.MapDemoActivity" android:label="Map Demos"/>
+        <activity android:name=".ui.activity.GaugeExamplesActivity" android:label="Gauge Demos"/>
+        <activity android:name=".ui.activity.FunnelExamplesActivity" android:label="Funnel Demos"/>
+        <activity android:name=".ui.activity.HeatMapExamplesActivity" android:label="Heatmap Demos"/>
+        <activity android:name=".ui.activity.OtherExamplesActivity" android:label="Other Demos"/>
+        <activity android:name=".ui.activity.MixExamplesActivity" android:label="Mix Demos"/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

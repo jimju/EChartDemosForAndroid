@@ -1,0 +1,72 @@
+{
+  "legend": {
+    "data": [
+      "group1",
+      "group2",
+      "group3",
+      "group4"
+    ],
+    "x": "left"
+  },
+  "series": [{
+    "sortSub": "descending",
+    "showScale": true,
+    "data": [
+      {"name": "group1"},
+      {"name": "group2"},
+      {"name": "group3"},
+      {"name": "group4"}
+    ],
+    "itemStyle": {"normal": {"label": {"show": false}}},
+    "sort": "ascending",
+    "type": "chord",
+    "matrix": [
+      [
+        11975,
+        5871,
+        8916,
+        2868
+      ],
+      [
+        1951,
+        10048,
+        2060,
+        6171
+      ],
+      [
+        8010,
+        16145,
+        8090,
+        8045
+      ],
+      [
+        1013,
+        990,
+        940,
+        6907
+      ]
+    ],
+    "showScaleText": true
+  }],
+  "tooltip": {"trigger": "item"},
+  "toolbox": {
+    "feature": {
+      "saveAsImage": {"show": true},
+      "restore": {"show": true},
+      "magicType": {
+        "show": true,
+        "type": [
+          "force",
+          "chord"
+        ]
+      }
+    },
+    "show": true
+  },
+  "title": {
+    "subtext": "From d3.js",
+    "x": "right",
+    "y": "bottom",
+    "text": "测试数据"
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "legend": {
+    "data": [
+      "阿森纳",
+      "拜仁慕尼黑",
+      "多特蒙德"
+    ],
+    "x": "left"
+  },
+  "series": [{
+    "sortSub": "descending",
+    "showScale": false,
+    "nodes": [
+      {"name": "默特萨克"},
+      {"name": "厄齐尔"},
+      {"name": "波多尔斯基"},
+      {"name": "诺伊尔"},
+      {"name": "博阿滕"},
+      {"name": "施魏因施泰格"},
+      {"name": "拉姆"},
+      {"name": "克罗斯"},
+      {"name": "穆勒"},
+      {"name": "格策"},
+      {"name": "胡梅尔斯"},
+      {"name": "魏登费勒"},
+      {"name": "杜尔姆"},
+      {"name": "格罗斯克罗伊茨"},
+      {"name": "阿森纳"},
+      {"name": "拜仁慕尼黑"},
+      {"name": "多特蒙德"}
+    ],
+    "itemStyle": {"normal": {"label": {"rotate": true}}},
+    "links": [
+      {
+        "name": "效力",
+        "weight": 0.9,
+        "source": "阿森纳",
+        "target": "默特萨克"
+      },
+      {
+        "name": "效力",
+        "weight": 0.9,
+        "source": "阿森纳",
+        "target": "厄齐尔"
+      },
+      {
+        "name": "效力",
+        "weight": 0.9,
+        "source": "阿森纳",
+        "target": "波多尔斯基"
+      },
+      {
+        "name": "效力",
+        "weight": 0.9,
+        "source": "拜仁慕尼黑",
+        "target": "诺伊尔"
+      },
+      {
+        "name": "效力",
+        "weight": 0.9,
+        "source": "拜仁慕尼黑",
+        "target": "博阿滕"
+      },
+      {
+        "name": "效力",
+        "weight": 0.9,
+        "source": "拜仁慕尼黑",
+        "target": "施魏因施泰格"
+      },
+      {
+        "name": "效力",
+        "weight": 0.9,
+        "source": "拜仁慕尼黑",
+        "target": "拉姆"
+      },
+      {
+        "name": "效力",
+        "weight": 0.9,
+        "source": "拜仁慕尼黑",
+        "target": "克罗斯"
+      },
+      {
+        "name": "效力",
+        "weight": 0.9,
+        "source": "拜仁慕尼黑",
+        "target": "穆勒"
+      },
+      {
+        "name": "效力",
+        "weight": 0.9,
+        "source": "拜仁慕尼黑",
+        "target": "格策"
+      },
+      {
+        "name": "效力",
+        "weight": 0.9,
+        "source": "多特蒙德",
+        "target": "胡梅尔斯"
+      },
+      {
+        "name": "效力",
+        "weight": 0.9,
+        "source": "多特蒙德",
+        "target": "魏登费勒"
+      },
+      {
+        "name": "效力",
+        "weight": 0.9,
+        "source": "多特蒙德",
+        "target": "杜尔姆"
+      },
+      {
+        "name": "效力",
+        "weight": 0.9,
+        "source": "多特蒙德",
+        "target": "格罗斯克罗伊茨"
+      },
+      {
+        "weight": 1,
+        "source": "默特萨克",
+        "target": "阿森纳"
+      },
+      {
+        "weight": 1,
+        "source": "厄齐尔",
+        "target": "阿森纳"
+      },
+      {
+        "weight": 1,
+        "source": "波多尔斯基",
+        "target": "阿森纳"
+      },
+      {
+        "weight": 1,
+        "source": "诺伊尔",
+        "target": "拜仁慕尼黑"
+      },
+      {
+        "weight": 1,
+        "source": "博阿滕",
+        "target": "拜仁慕尼黑"
+      },
+      {
+        "weight": 1,
+        "source": "施魏因施泰格",
+        "target": "拜仁慕尼黑"
+      },
+      {
+        "weight": 1,
+        "source": "拉姆",
+        "target": "拜仁慕尼黑"
+      },
+      {
+        "weight": 1,
+        "source": "克罗斯",
+        "target": "拜仁慕尼黑"
+      },
+      {
+        "weight": 1,
+        "source": "穆勒",
+        "target": "拜仁慕尼黑"
+      },
+      {
+        "weight": 1,
+        "source": "格策",
+        "target": "拜仁慕尼黑"
+      },
+      {
+        "weight": 1,
+        "source": "胡梅尔斯",
+        "target": "多特蒙德"
+      },
+      {
+        "weight": 1,
+        "source": "魏登费勒",
+        "target": "多特蒙德"
+      },
+      {
+        "weight": 1,
+        "source": "杜尔姆",
+        "target": "多特蒙德"
+      },
+      {
+        "weight": 1,
+        "source": "格罗斯克罗伊茨",
+        "target": "多特蒙德"
+      }
+    ],
+    "sort": "ascending",
+    "type": "chord"
+  }],
+  "tooltip": {"trigger": "item"},
+  "toolbox": {
+    "feature": {
+      "saveAsImage": {"show": true},
+      "restore": {"show": true},
+      "magicType": {
+        "show": true,
+        "type": [
+          "force",
+          "chord"
+        ]
+      }
+    },
+    "show": true
+  },
+  "title": {
+    "x": "right",
+    "y": "bottom",
+    "text": "德国队效力联盟"
+  }
+}

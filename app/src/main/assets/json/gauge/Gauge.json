@@ -1,0 +1,113 @@
+{
+  "series": [{
+    "pointer": {
+      "color": "auto",
+      "length": "80%",
+      "width": 8
+    },
+    "startAngle": 140,
+    "data": [{
+      "name": "仪表盘",
+      "value": 50
+    }],
+    "max": 100,
+    "center": [
+      "50%",
+      "50%"
+    ],
+    "precision": 0,
+    "endAngle": -140,
+    "splitNumber": 10,
+    "type": "gauge",
+    "title": {
+      "offsetCenter": [
+        "-65%",
+        -10
+      ],
+      "show": true,
+      "textStyle": {
+        "color": "#333",
+        "fontSize": 15
+      }
+    },
+    "axisLabel": {
+      "show": true,
+      "textStyle": {"color": "#333"}
+    },
+    "min": 0,
+    "axisLine": {
+      "lineStyle": {
+        "color": [
+          [
+            0.2,
+            "lightgreen"
+          ],
+          [
+            0.4,
+            "orange"
+          ],
+          [
+            0.8,
+            "skyblue"
+          ],
+          [
+            1,
+            "#ff4500"
+          ]
+        ],
+        "width": 30
+      },
+      "show": true
+    },
+    "name": "个性化仪表盘",
+    "axisTick": {
+      "lineStyle": {
+        "color": "#eee",
+        "width": 1,
+        "type": "solid"
+      },
+      "show": true,
+      "length": 8,
+      "splitNumber": 5
+    },
+    "splitLine": {
+      "lineStyle": {
+        "color": "#eee",
+        "width": 2,
+        "type": "solid"
+      },
+      "show": true,
+      "length": 30
+    },
+    "detail": {
+      "offsetCenter": [
+        "-60%",
+        10
+      ],
+      "formatter": "{value}%",
+      "backgroundColor": "rgba(0,0,0,0)",
+      "borderColor": "#ccc",
+      "borderWidth": 0,
+      "show": true,
+      "width": 100,
+      "textStyle": {
+        "color": "auto",
+        "fontSize": 30
+      },
+      "height": 40
+    },
+    "radius": [
+      0,
+      "75%"
+    ]
+  }],
+  "tooltip": {"formatter": "{a} <br/>{b} : {c}%"},
+  "toolbox": {
+    "feature": {
+      "saveAsImage": {"show": true},
+      "restore": {"show": true},
+      "mark": {"show": true}
+    },
+    "show": true
+  }
+}

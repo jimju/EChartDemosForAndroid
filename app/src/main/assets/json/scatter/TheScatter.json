@@ -1,0 +1,324 @@
+{
+  "yAxis": [{"type": "value"}],
+  "xAxis": [{"type": "value"}],
+  "calculable": true,
+  "legend": {"data": [
+    "scatter1",
+    "scatter2"
+  ]},
+  "series": [
+    {
+      "symbol": "emptyCircle",
+      "data": [
+        [
+          1.31,
+          5.11,
+          2.87
+        ],
+        [
+          4.89,
+          8.85,
+          8.38
+        ],
+        [
+          3.94,
+          2.05,
+          5.41
+        ],
+        [
+          4,
+          9.85,
+          4.11
+        ],
+        [
+          0.82,
+          5.62,
+          9.66
+        ],
+        [
+          7.2,
+          1.92,
+          0.52
+        ],
+        [
+          3.89,
+          0.06,
+          8.82
+        ],
+        [
+          7.22,
+          7.52,
+          2.64
+        ],
+        [
+          0.85,
+          4.59,
+          8.48
+        ],
+        [
+          3.22,
+          2.61,
+          3.91
+        ],
+        [
+          4.16,
+          6.23,
+          9.72
+        ],
+        [
+          9.81,
+          9.26,
+          5.46
+        ],
+        [
+          8.98,
+          9.38,
+          9.78
+        ],
+        [
+          2.96,
+          8.04,
+          8.91
+        ],
+        [
+          9.66,
+          2.15,
+          4.82
+        ],
+        [
+          6.46,
+          8.41,
+          4.74
+        ],
+        [
+          8.31,
+          4.67,
+          0.33
+        ],
+        [
+          5.1,
+          8.05,
+          2.09
+        ],
+        [
+          8.76,
+          2.22,
+          1.6
+        ],
+        [
+          3.59,
+          1.32,
+          9.22
+        ]
+      ],
+      "name": "scatter1",
+      "itemStyle": {
+        "normal": {
+          "color": "lightblue",
+          "borderWidth": 4,
+          "label": {"show": true}
+        },
+        "emphasis": {"color": "lightgreen"}
+      },
+      "type": "scatter",
+      "markLine": {"data": [
+        {
+          "name": "y平均值",
+          "type": "average"
+        },
+        {
+          "valueIndex": 0,
+          "name": "x平均值",
+          "itemStyle": {"normal": {"borderColor": "red"}},
+          "type": "average"
+        }
+      ]},
+      "markPoint": {"data": [
+        {
+          "name": "y最大值",
+          "type": "max"
+        },
+        {
+          "name": "y最小值",
+          "type": "min"
+        },
+        {
+          "valueIndex": 0,
+          "symbol": "arrow",
+          "name": "x最大值",
+          "itemStyle": {"normal": {"borderColor": "red"}},
+          "type": "max"
+        },
+        {
+          "valueIndex": 0,
+          "symbol": "arrow",
+          "name": "x最小值",
+          "itemStyle": {"normal": {"borderColor": "red"}},
+          "type": "min"
+        }
+      ]}
+    },
+    {
+      "symbol": "image://../asset/ico/favicon.png",
+      "data": [
+        [
+          5.6,
+          9.61,
+          5.61
+        ],
+        [
+          2.56,
+          8.55,
+          2.02
+        ],
+        [
+          8.31,
+          8.15,
+          0.64
+        ],
+        [
+          9.27,
+          4.25,
+          9.93
+        ],
+        [
+          8.79,
+          6.93,
+          6.57
+        ],
+        [
+          6.77,
+          3.13,
+          0.48
+        ],
+        [
+          3.05,
+          7.65,
+          4.46
+        ],
+        [
+          6.12,
+          9,
+          1
+        ],
+        [
+          0.92,
+          1.76,
+          1.69
+        ],
+        [
+          3.78,
+          6.19,
+          5.03
+        ],
+        [
+          7.08,
+          7.57,
+          0.65
+        ],
+        [
+          6.9,
+          5.11,
+          4
+        ],
+        [
+          1.87,
+          9.99,
+          5.92
+        ],
+        [
+          9.33,
+          0.31,
+          8.2
+        ],
+        [
+          5.68,
+          8.72,
+          1.72
+        ],
+        [
+          9.9,
+          7.33,
+          3.78
+        ],
+        [
+          8.12,
+          0.48,
+          8.64
+        ],
+        [
+          3.19,
+          5.06,
+          1.39
+        ],
+        [
+          7.02,
+          5.23,
+          4.29
+        ],
+        [
+          1.56,
+          8.37,
+          2.42
+        ],
+        {
+          "symbol": "emptyTriangle",
+          "symbolRotate": 90,
+          "symbolSize": 30,
+          "itemStyle": {
+            "normal": {
+              "color": "orange",
+              "borderWidth": 8
+            },
+            "emphasis": {
+              "color": "#ff4500",
+              "borderWidth": 10
+            }
+          },
+          "value": [
+            5,
+            5,
+            1000
+          ]
+        }
+      ],
+      "name": "scatter2",
+      "itemStyle": {"emphasis": {"label": {"show": true}}},
+      "type": "scatter",
+      "markPoint": {
+        "symbol": "emptyCircle",
+        "data": [{
+          "yAxis": 5,
+          "xAxis": 5,
+          "symbolSize": 80,
+          "name": "有个东西",
+          "value": 1000
+        }],
+        "itemStyle": {"normal": {"label": {"position": "top"}}}
+      }
+    }
+  ],
+  "tooltip": {
+    "axisPointer": {
+      "lineStyle": {
+        "width": 1,
+        "type": "dashed"
+      },
+      "show": true,
+      "type": "cross"
+    },
+    "trigger": "axis"
+  },
+  "toolbox": {
+    "feature": {
+      "saveAsImage": {"show": true},
+      "restore": {"show": true},
+      "dataView": {
+        "show": true,
+        "readOnly": false
+      },
+      "mark": {"show": true}
+    },
+    "show": true
+  }
+}

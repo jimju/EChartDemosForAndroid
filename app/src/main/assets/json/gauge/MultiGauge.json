@@ -1,0 +1,164 @@
+{
+  "series": [
+    {
+      "min": 0,
+      "data": [{
+        "name": "km/h",
+        "value": 40
+      }],
+      "max": 220,
+      "axisLine": {"lineStyle": {"width": 10}},
+      "name": "速度",
+      "axisTick": {
+        "lineStyle": {"color": "auto"},
+        "length": 15
+      },
+      "splitLine": {
+        "lineStyle": {"color": "auto"},
+        "length": 20
+      },
+      "z": 3,
+      "splitNumber": 11,
+      "detail": {"textStyle": {"fontWeight": "bolder"}},
+      "type": "gauge",
+      "title": {"textStyle": {
+        "fontSize": 20,
+        "fontStyle": "italic",
+        "fontWeight": "bolder"
+      }}
+    },
+    {
+      "pointer": {"width": 5},
+      "data": [{
+        "name": "x1000 r/min",
+        "value": 1.5
+      }],
+      "max": 7,
+      "center": [
+        "25%",
+        "55%"
+      ],
+      "endAngle": 45,
+      "splitNumber": 7,
+      "type": "gauge",
+      "title": {"offsetCenter": [
+        0,
+        "-30%"
+      ]},
+      "min": 0,
+      "axisLine": {"lineStyle": {"width": 8}},
+      "name": "转速",
+      "axisTick": {
+        "lineStyle": {"color": "auto"},
+        "length": 12
+      },
+      "splitLine": {
+        "lineStyle": {"color": "auto"},
+        "length": 20
+      },
+      "detail": {"textStyle": {"fontWeight": "bolder"}},
+      "radius": "50%"
+    },
+    {
+      "pointer": {"width": 2},
+      "startAngle": 135,
+      "data": [{
+        "name": "gas",
+        "value": 0.5
+      }],
+      "max": 2,
+      "center": [
+        "75%",
+        "50%"
+      ],
+      "endAngle": 45,
+      "splitNumber": 2,
+      "type": "gauge",
+      "title": {"show": false},
+      "axisLabel": {},
+      "min": 0,
+      "axisLine": {"lineStyle": {
+        "color": [
+          [
+            0.2,
+            "#ff4500"
+          ],
+          [
+            0.8,
+            "#48b"
+          ],
+          [
+            1,
+            "#228b22"
+          ]
+        ],
+        "width": 8
+      }},
+      "name": "油表",
+      "axisTick": {
+        "lineStyle": {"color": "auto"},
+        "length": 10,
+        "splitNumber": 5
+      },
+      "splitLine": {
+        "lineStyle": {"color": "auto"},
+        "length": 15
+      },
+      "detail": {"show": false},
+      "radius": "50%"
+    },
+    {
+      "pointer": {"width": 2},
+      "startAngle": 315,
+      "data": [{
+        "name": "gas",
+        "value": 0.5
+      }],
+      "max": 2,
+      "center": [
+        "75%",
+        "50%"
+      ],
+      "endAngle": 225,
+      "splitNumber": 2,
+      "type": "gauge",
+      "title": {"show": false},
+      "axisLabel": {},
+      "min": 0,
+      "axisLine": {"lineStyle": {
+        "color": [
+          [
+            0.2,
+            "#ff4500"
+          ],
+          [
+            0.8,
+            "#48b"
+          ],
+          [
+            1,
+            "#228b22"
+          ]
+        ],
+        "width": 8
+      }},
+      "name": "水表",
+      "axisTick": {"show": false},
+      "splitLine": {
+        "lineStyle": {"color": "auto"},
+        "length": 15
+      },
+      "detail": {"show": false},
+      "radius": "50%"
+    }
+  ],
+  "tooltip": {"formatter": "{a} <br/>{c} {b}"},
+  "toolbox": {
+    "feature": {
+      "saveAsImage": {"show": true},
+      "restore": {"show": true},
+      "mark": {"show": true}
+    },
+    "show": true
+  }
+}

@@ -1,0 +1,210 @@
+{
+    "polar": [
+        {
+            "indicator": [
+                {
+                    "max": 100,
+                    "text": "品牌"
+                },
+                {
+                    "max": 100,
+                    "text": "内容"
+                },
+                {
+                    "max": 100,
+                    "text": "可用性"
+                },
+                {
+                    "max": 100,
+                    "text": "功能"
+                }
+            ],
+            "center": [
+                "25%",
+                200
+            ],
+            "radius": 80
+        },
+        {
+            "indicator": [
+                {
+                    "max": 100,
+                    "text": "外观"
+                },
+                {
+                    "max": 100,
+                    "text": "拍照"
+                },
+                {
+                    "max": 100,
+                    "text": "系统"
+                },
+                {
+                    "max": 100,
+                    "text": "性能"
+                },
+                {
+                    "max": 100,
+                    "text": "屏幕"
+                }
+            ],
+            "radius": 80
+        },
+        {
+            "indicator": [
+                {
+                    "max": 100,
+                    "text": "1月"
+                },
+                {
+                    "max": 100,
+                    "text": "2月"
+                },
+                {
+                    "max": 100,
+                    "text": "3月"
+                },
+                {
+                    "max": 100,
+                    "text": "4月"
+                },
+                {
+                    "max": 100,
+                    "text": "5月"
+                },
+                {
+                    "max": 100,
+                    "text": "6月"
+                },
+                {
+                    "max": 100,
+                    "text": "7月"
+                },
+                {
+                    "max": 100,
+                    "text": "8月"
+                },
+                {
+                    "max": 100,
+                    "text": "9月"
+                },
+                {
+                    "max": 100,
+                    "text": "10月"
+                },
+                {
+                    "max": 100,
+                    "text": "11月"
+                },
+                {
+                    "max": 100,
+                    "text": "12月"
+                }
+            ],
+            "center": [
+                "75%",
+                200
+            ],
+            "radius": 80
+        }
+    ],
+    "calculable": true,
+    "legend": {
+        "data": [
+            "某软件",
+            "某主食手机",
+            "某水果手机",
+            "降水量",
+            "蒸发量"
+        ],
+        "x": "center"
+    },
+    "series": [
+        {
+            "data": [{
+                "name": "某软件",
+                "value": [
+                    60,
+                    73,
+                    85,
+                    40
+                ]
+            }],
+            "tooltip": {"trigger": "item"},
+            "itemStyle": {"normal": {"areaStyle": {"type": "default"}}},
+            "type": "radar"
+        },
+        {
+            "data": [
+                {
+                    "name": "某主食手机",
+                    "value": [
+                        85,
+                        90,
+                        90,
+                        95,
+                        95
+                    ]
+                },
+                {
+                    "name": "某水果手机",
+                    "value": [
+                        95,
+                        80,
+                        95,
+                        90,
+                        93
+                    ]
+                }
+            ],
+            "type": "radar",
+            "polarIndex": 1
+        },
+        {
+            "data": [
+                {
+                    "name": "降水量",
+                    "value": [
+                        2.6,
+                        5.9,
+                        9,
+                        26.4,
+                        28.7,
+                        70.7,
+                        75.6,
+                        82.2,
+                        48.7,
+                        18.8,
+                        6,
+                        2.3
+                    ]
+                },
+                {
+                    "name": "蒸发量",
+                    "value": [
+                        2,
+                        4.9,
+                        7,
+                        23.2,
+                        25.6,
+                        76.7,
+                        35.6,
+                        62.2,
+                        32.6,
+                        20,
+                        6.4,
+                        3.3
+                    ]
+                }
+            ],
+            "itemStyle": {"normal": {"areaStyle": {"type": "default"}}},
+            "type": "radar",
+            "polarIndex": 2
+        }
+    ],
+    "tooltip": {"trigger": "axis"},
+    "title": {
+        "subtext": "纯属虚构",
+        "text": "多雷达图"
+    }
+}

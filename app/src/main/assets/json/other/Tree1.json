@@ -1,0 +1,1032 @@
+{
+  "series": [{
+    "orient": "horizontal",
+    "data": [{
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {"name": "马化腾"},
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {"name": "蔡文胜"},
+                            {"name": "蔡明"},
+                            {"name": "汪小菲"}
+                          ],
+                          "name": "姚劲波"
+                        },
+                        {
+                          "children": [
+                            {"name": "所有的创业者"},
+                            {"name": "所有的投资人"},
+                            {"name": "所有的创业服务机构"}
+                          ],
+                          "name": "杨守彬"
+                        },
+                        {"name": "蒲易"}
+                      ],
+                      "name": "牛文文"
+                    },
+                    {
+                      "children": [{"name": "罗辑思维25000名会员"}],
+                      "name": "罗振宇"
+                    },
+                    {"name": "黄西"}
+                  ],
+                  "name": "徐小平"
+                },
+                {"name": "黄章"}
+              ],
+              "name": "周鸿祎"
+            },
+            {"name": "罗永浩"},
+            {
+              "children": [
+                {
+                  "children": [
+                    {"name": "谢清江"},
+                    {"name": "王翔"},
+                    {"name": "艾伟"}
+                  ],
+                  "name": "何刚"
+                },
+                {"name": "王煜磊"}
+              ],
+              "name": "刘江峰"
+            }
+          ],
+          "name": "刘作虎"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {"name": "朗朗"},
+                {"name": "苏桦伟"},
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {"name": "九把刀"},
+                        {"name": "柯有伦"}
+                      ],
+                      "name": "方文山"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {"name": "赵慧仙"},
+                            {
+                              "children": [{"name": "小S"}],
+                              "name": "张菲"
+                            },
+                            {"name": "郭富城"}
+                          ],
+                          "name": "谢金燕"
+                        },
+                        {"name": "张震"},
+                        {"name": "金城武"}
+                      ],
+                      "name": "五月天"
+                    }
+                  ],
+                  "name": "周杰伦"
+                }
+              ],
+              "name": "刘德华"
+            },
+            {
+              "children": [
+                {"name": "俞敏洪"},
+                {
+                  "children": [{"name": "任志强"}],
+                  "name": "潘石屹"
+                },
+                {
+                  "children": [
+                    {"name": "王岳伦"},
+                    {"name": "小沈阳"},
+                    {"name": "李小鹏"}
+                  ],
+                  "name": "田亮"
+                }
+              ],
+              "name": "李彦宏"
+            },
+            {
+              "children": [
+                {
+                  "children": [{"name": "宫坂学"}],
+                  "name": "孙正义"
+                },
+                {"name": "谢晓亮"},
+                {"name": "林志玲"}
+              ],
+              "name": "郭台铭"
+            }
+          ],
+          "name": "雷军"
+        },
+        {
+          "children": [
+            {"name": "马云"},
+            {
+              "children": [
+                {
+                  "children": [{
+                    "children": [
+                      {
+                        "children": [
+                          {"name": "吴秀波"},
+                          {"name": "吴彦祖"},
+                          {"name": "孙红雷"}
+                        ],
+                        "name": "姚晨"
+                      },
+                      {
+                        "children": [{
+                          "children": [{"name": "易建联"}],
+                          "name": "王仕鹏"
+                        }],
+                        "name": "朱芳雨"
+                      },
+                      {"name": "梁超"}
+                    ],
+                    "name": "俞白眉"
+                  }],
+                  "name": "邓超"
+                },
+                {"name": "刘亦菲"},
+                {"name": "刘同"}
+              ],
+              "name": "王长田"
+            }
+          ],
+          "name": "古永锵"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {"name": "姜宁"},
+                {"name": "唐淼"}
+              ],
+              "name": "张耀坤"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {"name": "蔡贇"},
+                    {"name": "李易峰"},
+                    {"name": "王弢 "}
+                  ],
+                  "name": "汪嵩"
+                },
+                {"name": "邵佳一"},
+                {
+                  "children": [
+                    {"name": "莫雷诺"},
+                    {"name": "恩里克"},
+                    {"name": "保罗"}
+                  ],
+                  "name": "高迪"
+                }
+              ],
+              "name": "周海滨"
+            },
+            {"name": "阎小闯"}
+          ],
+          "name": "朱挺"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {"name": "许嵩"},
+                        {"name": "付辛博"},
+                        {"name": "洪辰"}
+                      ],
+                      "name": "伊一"
+                    },
+                    {
+                      "children": [
+                        {"name": "王菀之"},
+                        {
+                          "children": [
+                            {"name": "宋熙年"},
+                            {"name": "钟嘉欣"},
+                            {"name": "陈美诗"}
+                          ],
+                          "name": "李亚男"
+                        },
+                        {"name": "贾玲"}
+                      ],
+                      "name": "王祖蓝"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {"name": "邪童 "},
+                            {"name": "杜海涛"},
+                            {"name": "汪涵"}
+                          ],
+                          "name": "盛宇"
+                        },
+                        {"name": "派克特"},
+                        {
+                          "children": [
+                            {"name": "C-BLOCK小胖"},
+                            {"name": "范元成"},
+                            {
+                              "children": [
+                                {"name": "高以翔"},
+                                {"name": "马楚成"}
+                              ],
+                              "name": "隋凯"
+                            }
+                          ],
+                          "name": "谢帝"
+                        }
+                      ],
+                      "name": "白客"
+                    }
+                  ],
+                  "name": "董成鹏"
+                },
+                {"name": "易建联、李艾、江映蓉"}
+              ],
+              "name": "于嘉"
+            },
+            {"name": "Kevin Han"}
+          ],
+          "name": "郑璐"
+        },
+        {
+          "children": [
+            {"name": "姚明"},
+            {"name": "NBA中国全体员工"}
+          ],
+          "name": "舒德伟"
+        },
+        {
+          "children": [
+            {"name": "翟本乔"},
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {"name": "徐磊"},
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "children": [{"name": "于谦"}],
+                                  "name": "郭德纲"
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "children": [
+                                        {"name": "黄博文"},
+                                        {"name": "李帅"}
+                                      ],
+                                      "name": "张琳芃"
+                                    },
+                                    {
+                                      "children": [
+                                        {"name": "刘建宏"},
+                                        {"name": "李玮峰"}
+                                      ],
+                                      "name": "郜林"
+                                    }
+                                  ],
+                                  "name": "黄健翔"
+                                }
+                              ],
+                              "name": "孟非"
+                            },
+                            {"name": "陈坤"},
+                            {"name": "AKB48"}
+                          ],
+                          "name": "佟大为"
+                        },
+                        {
+                          "children": [
+                            {"name": "贾乃亮"},
+                            {"name": "李小璐"},
+                            {"name": "angelababy"}
+                          ],
+                          "name": "吴欣鸿"
+                        }
+                      ],
+                      "name": "易振兴"
+                    },
+                    {
+                      "children": [
+                        {"name": "赵又廷"},
+                        {"name": "佟丽娅"},
+                        {"name": "AngelaBaby"}
+                      ],
+                      "name": "林更新"
+                    },
+                    {"name": "刘军"}
+                  ],
+                  "name": "王思聪"
+                },
+                {
+                  "children": [
+                    {"name": "迟毓凯"},
+                    {"name": "李淼"},
+                    {"name": "姜振宇"}
+                  ],
+                  "name": "魏坤琳"
+                },
+                {
+                  "children": [
+                    {"name": "张颖"},
+                    {
+                      "children": [
+                        {"name": "刘翔"},
+                        {"name": "吴海"},
+                        {"name": "傅盛"}
+                      ],
+                      "name": "王自如"
+                    },
+                    {"name": "汪峰"}
+                  ],
+                  "name": "刘成城"
+                }
+              ],
+              "name": "嵇晓华"
+            }
+          ],
+          "name": "叶丙成"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {"name": "赵少康"},
+                    {"name": "魏德圣"},
+                    {"name": "郭子乾"}
+                  ],
+                  "name": "柯文哲"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {"name": "卢贝松"},
+                        {"name": "胡志强"},
+                        {"name": "邱文达"}
+                      ],
+                      "name": "郝龙斌"
+                    },
+                    {"name": "朱立伦"},
+                    {"name": "吴思华"}
+                  ],
+                  "name": "连胜文"
+                },
+                {
+                  "children": [
+                    {"name": "杜紫军"},
+                    {"name": "陈保基"},
+                    {"name": "杨泮池"}
+                  ],
+                  "name": "管中闵"
+                }
+              ],
+              "name": "林之晨"
+            },
+            {
+              "children": [{
+                "children": [
+                  {
+                    "children": [
+                      {"name": "钮承泽"},
+                      {"name": "李宗盛"},
+                      {"name": "何飞鹏"}
+                    ],
+                    "name": "詹宏志"
+                  },
+                  {
+                    "children": [
+                      {"name": "黄日灿"},
+                      {"name": "黄胜华"},
+                      {"name": "吴升奇"}
+                    ],
+                    "name": "陈清祥"
+                  }
+                ],
+                "name": "颜漏有"
+              }],
+              "name": "陈素兰"
+            },
+            {"name": "蔡牧民"}
+          ],
+          "name": "萧上农"
+        },
+        {
+          "children": [
+            {"name": "兰德里-菲尔兹"},
+            {"name": "帕森斯"}
+          ],
+          "name": "林书豪"
+        },
+        {
+          "children": [
+            {"name": "杨毅"},
+            {"name": "柯凡"},
+            {"name": "StephonMarbury"}
+          ],
+          "name": "王猛"
+        },
+        {
+          "children": [
+            {"name": "李晨"},
+            {
+              "children": [{
+                "children": [
+                  {"name": "范冰冰"},
+                  {
+                    "children": [
+                      {"name": "王中军"},
+                      {"name": "新浪娱乐"}
+                    ],
+                    "name": "李冰冰"
+                  }
+                ],
+                "name": "黄晓明"
+              }],
+              "name": "苏芒"
+            },
+            {"name": "陈欧"}
+          ],
+          "name": "叶璇"
+        },
+        {
+          "children": [
+            {
+              "children": [{"name": "尚格云顿"}],
+              "name": "TFBoys"
+            },
+            {
+              "children": [
+                {"name": "迈克尔·贝"},
+                {"name": "何炅"},
+                {"name": "那英"}
+              ],
+              "name": "韩庚"
+            },
+            {"name": "苏菲玛索"}
+          ],
+          "name": "章子怡"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {"name": "快乐家族"},
+                {"name": "李宇春"},
+                {"name": "萧敬腾"}
+              ],
+              "name": "张杰"
+            },
+            {
+              "children": [
+                {"name": "天天兄弟"},
+                {
+                  "children": [
+                    {
+                      "children": [{
+                        "children": [{
+                          "children": [
+                            {"name": "马振桓"},
+                            {"name": "萧煌奇"},
+                            {"name": "诗安"}
+                          ],
+                          "name": "连晨翔"
+                        }],
+                        "name": "廖俊杰"
+                      }],
+                      "name": "卓文萱"
+                    },
+                    {"name": "阿纬"},
+                    {"name": "洪卓立"}
+                  ],
+                  "name": "武艺"
+                },
+                {"name": "DJ小强"}
+              ],
+              "name": "王铮亮"
+            },
+            {"name": "Timbaland"}
+          ],
+          "name": "张靓颖"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {"name": " 何猷啟"},
+                        {"name": "陈泽杉"}
+                      ],
+                      "name": "吴克群"
+                    },
+                    {"name": "卡提娜"},
+                    {"name": "jw_amusic "}
+                  ],
+                  "name": "何超莲"
+                },
+                {"name": "诗雅"},
+                {"name": "陈静"}
+              ],
+              "name": "李蕴"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {"name": "马天宇"},
+                        {
+                          "children": [{"name": "霍汶希"}],
+                          "name": "陈伟霆"
+                        },
+                        {"name": "高伟光"}
+                      ],
+                      "name": "乔振宇"
+                    },
+                    {"name": " 周汤豪"},
+                    {"name": "黃鴻升"}
+                  ],
+                  "name": "钟欣桐"
+                },
+                {"name": "谢娜"},
+                {"name": "詹瑞文"}
+              ],
+              "name": "蔡卓妍"
+            },
+            {
+              "children": [
+                {"name": "EXO-M"},
+                {"name": "巫启贤"}
+              ],
+              "name": "茜拉"
+            }
+          ],
+          "name": "邓紫棋"
+        },
+        {
+          "children": [
+            {"name": "吴君如"},
+            {"name": "邹凯光"},
+            {"name": "钟舒漫"}
+          ],
+          "name": "卫诗雅"
+        },
+        {
+          "children": [
+            {"name": "梁家辉"},
+            {"name": "黄伟文"}
+          ],
+          "name": "容祖儿"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {"name": "舒淇"},
+                        {"name": "张惠妹"},
+                        {"name": "孙燕姿"}
+                      ],
+                      "name": "桂纶镁"
+                    },
+                    {"name": "林丹"},
+                    {"name": "李云迪"}
+                  ],
+                  "name": "谢霆锋"
+                },
+                {"name": "范晓萱"},
+                {
+                  "children": [
+                    {
+                      "children": [{"name": "林超贤"}],
+                      "name": "彭于晏"
+                    },
+                    {
+                      "children": [{
+                        "children": [
+                          {
+                            "children": [
+                              {"name": "张学友"},
+                              {"name": "华少"}
+                            ],
+                            "name": "孙杨"
+                          },
+                          {"name": "吴敏霞"},
+                          {"name": "陈一冰"}
+                        ],
+                        "name": "秦凯"
+                      }],
+                      "name": "魏晨"
+                    },
+                    {"name": "张嘉佳"}
+                  ],
+                  "name": "张一白"
+                }
+              ],
+              "name": "陈奕迅"
+            },
+            {"name": "葛民辉"},
+            {
+              "children": [
+                {"name": "陈小春"},
+                {"name": "谢天华"}
+              ],
+              "name": "郑伊健"
+            }
+          ],
+          "name": "蔡一智"
+        },
+        {
+          "children": [
+            {"name": "王力宏"},
+            {"name": "蔡依林"}
+          ],
+          "name": "林俊杰"
+        },
+        {
+          "children": [
+            {"name": "李连杰"},
+            {"name": "韩寒"},
+            {"name": "赵薇"}
+          ],
+          "name": "徐峥"
+        },
+        {
+          "children": [
+            {"name": "薛之谦"},
+            {"name": "杨姗姗"}
+          ],
+          "name": "刘循子墨"
+        },
+        {
+          "children": [
+            {"name": "郑凯"},
+            {"name": "刘江"},
+            {"name": "刘涛"}
+          ],
+          "name": "王自健"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {"name": "许嵩 "},
+                {"name": "张成龙"},
+                {"name": "邹市明 "}
+              ],
+              "name": "邹凯"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {"name": "PLU小米"},
+                        {"name": "高地平"}
+                      ],
+                      "name": "张翔玲"
+                    },
+                    {
+                      "children": [
+                        {"name": "杨丰智"},
+                        {"name": "李鑫"},
+                        {
+                          "children": [
+                            {"name": "孙亚龙"},
+                            {"name": "瞿申图"},
+                            {"name": "朱永权"}
+                          ],
+                          "name": "卢本伟"
+                        }
+                      ],
+                      "name": "戴士"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {"name": "金亦波"},
+                            {"name": "卞正伟"}
+                          ],
+                          "name": "沈伟荣"
+                        },
+                        {"name": "李君"}
+                      ],
+                      "name": "裴乐"
+                    }
+                  ],
+                  "name": "禹景曦"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {"name": "至尊玉"},
+                        {"name": "马俊"},
+                        {"name": "颜土豆avi"}
+                      ],
+                      "name": "老湿"
+                    },
+                    {"name": "小爱"},
+                    {
+                      "children": [{"name": "张本煜"}],
+                      "name": "马诗歌"
+                    }
+                  ],
+                  "name": "孔连顺"
+                },
+                {
+                  "children": [
+                    {"name": "陈剑书"},
+                    {"name": "陈琦栋"},
+                    {"name": "滕林季"}
+                  ],
+                  "name": "孙博文"
+                }
+              ],
+              "name": "林琪雪"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {"name": "炎亚纶"},
+                    {"name": "张榕容"},
+                    {"name": "刘希平"}
+                  ],
+                  "name": "陈奕"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {"name": "曹国伟"},
+                        {"name": "余承东"},
+                        {
+                          "children": [
+                            {"name": "曹格"},
+                            {"name": "魏雪漫"},
+                            {"name": "曾一鸣 "}
+                          ],
+                          "name": "金池"
+                        }
+                      ],
+                      "name": "俞永福"
+                    },
+                    {"name": "郭品超"},
+                    {"name": "霍建华 "}
+                  ],
+                  "name": "何润东"
+                },
+                {"name": "张根硕"}
+              ],
+              "name": "沈建宏"
+            }
+          ],
+          "name": "罗震环"
+        },
+        {
+          "children": [
+            {"name": "海清"},
+            {"name": "张韵艺"},
+            {"name": "王媛可"}
+          ],
+          "name": "涂松岩"
+        },
+        {
+          "children": [{
+            "children": [
+              {"name": "陈赫"},
+              {"name": "杨子姗"}
+            ],
+            "name": "包贝尔"
+          }],
+          "name": "陈嘉上"
+        },
+        {
+          "children": [
+            {"name": "夏河"},
+            {
+              "children": [
+                {"name": "贝志诚"},
+                {"name": "孙杰"}
+              ],
+              "name": "陆琪"
+            },
+            {
+              "children": [
+                {"name": "黄轩"},
+                {"name": "古川雄辉"},
+                {"name": "蒋劲夫"}
+              ],
+              "name": "张辛苑"
+            }
+          ],
+          "name": "留几手"
+        },
+        {
+          "children": [{
+            "children": [
+              {
+                "children": [
+                  {"name": "朴正洙"},
+                  {"name": "金希澈"}
+                ],
+                "name": "崔始源"
+              },
+              {"name": "黄子华"}
+            ],
+            "name": "古巨基"
+          }],
+          "name": "郑希怡"
+        },
+        {
+          "children": [
+            {"name": "徐铮"},
+            {"name": "黄渤"},
+            {"name": "雷佳音"}
+          ],
+          "name": "宁浩"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {"name": "张钧甯"},
+                {
+                  "children": [
+                    {"name": "冯绍峰"},
+                    {
+                      "children": [
+                        {"name": "王志鹏"},
+                        {"name": "李东霖"},
+                        {"name": "夏青"}
+                      ],
+                      "name": "高华阳"
+                    }
+                  ],
+                  "name": "陈柏霖"
+                },
+                {"name": "池珍熙"}
+              ],
+              "name": "陈意涵"
+            },
+            {"name": "阮经天"}
+          ],
+          "name": "鈕承澤"
+        },
+        {
+          "children": [
+            {"name": "王珞丹"},
+            {"name": "井柏然"},
+            {"name": "张晋"}
+          ],
+          "name": "周显扬"
+        },
+        {
+          "children": [{"name": "蔡康永"}],
+          "name": "徐熙娣"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {"name": "曾志伟"},
+                {
+                  "children": [{"name": "房思瑜"}],
+                  "name": "张艾亚"
+                }
+              ],
+              "name": "杨奇煜"
+            },
+            {"name": "林峰"}
+          ],
+          "name": "刘俊纬"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {"name": "罗志祥"},
+                {"name": "簡愷樂"}
+              ],
+              "name": "庄濠全"
+            },
+            {"name": "林暐恒"},
+            {
+              "children": [{"name": "洪炜宁"}],
+              "name": "王雪娥"
+            }
+          ],
+          "name": "周汤豪"
+        },
+        {
+          "children": [{"name": "倪妮"}],
+          "name": "杨颖"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {"name": "袁咏仪"},
+                {"name": "钱芳"}
+              ],
+              "name": "郭京飞"
+            },
+            {"name": "陆毅"},
+            {"name": "关锦鹏"}
+          ],
+          "name": "董子健"
+        }
+      ],
+      "name": "冰桶挑战"
+    }],
+    "symbolSize": 6,
+    "name": "树图",
+    "nodePadding": 8,
+    "itemStyle": {
+      "normal": {
+        "color": "#4883b4",
+        "lineStyle": {
+          "color": "#ccc",
+          "type": "curve"
+        },
+        "label": {
+          "formatter": "{b}",
+          "show": true,
+          "position": "right",
+          "textStyle": {
+            "color": "#000",
+            "fontSize": 5
+          }
+        }
+      },
+      "emphasis": {
+        "color": "#4883b4",
+        "borderWidth": 0,
+        "label": {"show": false}
+      }
+    },
+    "hoverable": false,
+    "type": "tree",
+    "roam": true,
+    "rootLocation": {
+      "x": 100,
+      "y": 230
+    },
+    "layerPadding": 200
+  }],
+  "toolbox": {
+    "feature": {
+      "saveAsImage": {"show": true},
+      "restore": {"show": true},
+      "dataView": {
+        "show": true,
+        "readOnly": false
+      },
+      "mark": {"show": true}
+    },
+    "show": true
+  },
+  "title": {"text": "冰桶挑战"}
+}

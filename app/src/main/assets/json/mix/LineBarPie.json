@@ -1,0 +1,162 @@
+{
+  "yAxis": [{
+    "position": "right",
+    "type": "value"
+  }],
+  "xAxis": [{
+    "data": [
+      "周一",
+      "周二",
+      "周三",
+      "周四",
+      "周五",
+      "周六",
+      "周日"
+    ],
+    "splitLine": {"show": false},
+    "type": "category"
+  }],
+  "calculable": true,
+  "legend": {"data": [
+    "直接访问",
+    "邮件营销",
+    "联盟广告",
+    "视频广告",
+    "搜索引擎",
+    "百度",
+    "谷歌",
+    "必应",
+    "其他"
+  ]},
+  "series": [
+    {
+      "data": [
+        320,
+        332,
+        301,
+        334,
+        390,
+        330,
+        320
+      ],
+      "name": "直接访问",
+      "type": "bar"
+    },
+    {
+      "stack": "广告",
+      "data": [
+        120,
+        132,
+        101,
+        134,
+        90,
+        230,
+        210
+      ],
+      "name": "邮件营销",
+      "tooltip": {"trigger": "item"},
+      "type": "bar"
+    },
+    {
+      "stack": "广告",
+      "data": [
+        220,
+        182,
+        191,
+        234,
+        290,
+        330,
+        310
+      ],
+      "name": "联盟广告",
+      "tooltip": {"trigger": "item"},
+      "type": "bar"
+    },
+    {
+      "stack": "广告",
+      "data": [
+        150,
+        232,
+        201,
+        154,
+        190,
+        330,
+        410
+      ],
+      "name": "视频广告",
+      "tooltip": {"trigger": "item"},
+      "type": "bar"
+    },
+    {
+      "data": [
+        862,
+        1018,
+        964,
+        1026,
+        1679,
+        1600,
+        1570
+      ],
+      "name": "搜索引擎",
+      "type": "line"
+    },
+    {
+      "data": [
+        {
+          "name": "百度",
+          "value": 1048
+        },
+        {
+          "name": "谷歌",
+          "value": 251
+        },
+        {
+          "name": "必应",
+          "value": 147
+        },
+        {
+          "name": "其他",
+          "value": 102
+        }
+      ],
+      "center": [
+        160,
+        130
+      ],
+      "name": "搜索引擎细分",
+      "tooltip": {
+        "formatter": "{a} <br/>{b} : {c} ({d}%)",
+        "trigger": "item"
+      },
+      "itemStyle": {"normal": {"labelLine": {"length": 20}}},
+      "type": "pie",
+      "radius": [
+        0,
+        50
+      ]
+    }
+  ],
+  "tooltip": {"trigger": "axis"},
+  "toolbox": {
+    "feature": {
+      "saveAsImage": {"show": true},
+      "restore": {"show": true},
+      "magicType": {
+        "show": true,
+        "type": [
+          "line",
+          "bar",
+          "stack",
+          "tiled"
+        ]
+      },
+      "dataView": {
+        "show": true,
+        "readOnly": false
+      },
+      "mark": {"show": true}
+    },
+    "show": true,
+    "y": "bottom"
+  }
+}

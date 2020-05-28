@@ -1,0 +1,137 @@
+{
+  "legend": {
+    "data": [
+      "g1",
+      "g2",
+      "g3",
+      "g4"
+    ],
+    "x": "right"
+  },
+  "series": [{
+    "padding": 2,
+    "startAngle": 90,
+    "data": [
+      {
+        "name": "g1",
+        "itemStyle": {
+          "normal": {
+            "color": "rgba(255,30,30,0.5)",
+            "lineStyle": {
+              "color": "green",
+              "width": 1
+            }
+          },
+          "emphasis": {
+            "color": "yellow",
+            "lineStyle": {
+              "color": "blue",
+              "width": 2
+            }
+          }
+        }
+      },
+      {"name": "g2"},
+      {"name": "g3"},
+      {"name": "g4"}
+    ],
+    "center": [
+      "50%",
+      "50%"
+    ],
+    "itemStyle": {
+      "normal": {
+        "borderColor": "#000",
+        "borderWidth": 0,
+        "label": {
+          "color": "red",
+          "show": true
+        },
+        "chordStyle": {
+          "borderColor": "#333",
+          "borderWidth": 1
+        }
+      },
+      "emphasis": {
+        "borderColor": "#000",
+        "borderWidth": 0,
+        "chordStyle": {
+          "borderColor": "black",
+          "borderWidth": 2
+        }
+      }
+    },
+    "sort": "descending",
+    "type": "chord",
+    "matrix": [
+      [
+        11975,
+        5871,
+        8916,
+        2868
+      ],
+      [
+        1951,
+        10048,
+        2060,
+        6171
+      ],
+      [
+        8010,
+        16145,
+        8090,
+        8045
+      ],
+      [
+        1013,
+        990,
+        940,
+        6907
+      ]
+    ],
+    "showScaleText": true,
+    "markPoint": {
+      "symbol": "star",
+      "data": [
+        {
+          "symbolSize": 32,
+          "name": "打酱油的标注",
+          "x": "5%",
+          "y": "50%",
+          "value": 100
+        },
+        {
+          "symbolSize": 32,
+          "name": "打酱油的标注",
+          "x": "95%",
+          "y": "50%",
+          "value": 100
+        }
+      ]
+    },
+    "sortSub": "descending",
+    "showScale": true,
+    "clockWise": false,
+    "radius": [
+      "55%",
+      "75%"
+    ]
+  }],
+  "tooltip": {"trigger": "item"},
+  "toolbox": {
+    "feature": {
+      "saveAsImage": {"show": true},
+      "restore": {"show": true},
+      "magicType": {
+        "show": true,
+        "type": [
+          "force",
+          "chord"
+        ]
+      }
+    },
+    "show": true,
+    "y": "bottom"
+  },
+  "title": {"text": "测试数据"}
+}

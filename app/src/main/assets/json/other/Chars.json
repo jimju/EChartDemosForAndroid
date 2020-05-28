@@ -1,0 +1,128 @@
+{
+  "series": [{
+    "autoSize": {
+      "enable": true,
+      "minSize": 14
+    },
+    "size": [
+      "80%",
+      "80%"
+    ],
+    "data": [
+      {
+        "name": "Sam S Club",
+        "itemStyle": {"normal": {"color": "black"}},
+        "value": 10000
+      },
+      {
+        "name": "Macys",
+        "itemStyle": {"normal": {"color": "rgb(150,120,7)"}},
+        "value": 6181
+      },
+      {
+        "name": "Amy Schumer",
+        "itemStyle": {"normal": {"color": "rgb(99,25,96)"}},
+        "value": 4386
+      },
+      {
+        "name": "Jurassic World",
+        "itemStyle": {"normal": {"color": "rgb(121,121,133)"}},
+        "value": 4055
+      },
+      {
+        "name": "Charter Communications",
+        "itemStyle": {"normal": {"color": "rgb(1,2,18)"}},
+        "value": 2467
+      },
+      {
+        "name": "Chick Fil A",
+        "itemStyle": {"normal": {"color": "rgb(19,76,148)"}},
+        "value": 2244
+      },
+      {
+        "name": "Planet Fitness",
+        "itemStyle": {"normal": {"color": "rgb(77,22,122)"}},
+        "value": 1898
+      },
+      {
+        "name": "Pitch Perfect",
+        "itemStyle": {"normal": {"color": "rgb(142,118,136)"}},
+        "value": 1484
+      },
+      {
+        "name": "Express",
+        "itemStyle": {"normal": {"color": "rgb(4,52,140)"}},
+        "value": 1112
+      },
+      {
+        "name": "Home",
+        "itemStyle": {"normal": {"color": "rgb(117,87,68)"}},
+        "value": 965
+      },
+      {
+        "name": "Johnny Depp",
+        "itemStyle": {"normal": {"color": "rgb(158,160,16)"}},
+        "value": 847
+      },
+      {
+        "name": "Lena Dunham",
+        "itemStyle": {"normal": {"color": "rgb(50,22,152)"}},
+        "value": 582
+      },
+      {
+        "name": "Lewis Hamilton",
+        "itemStyle": {"normal": {"color": "rgb(101,143,8)"}},
+        "value": 555
+      },
+      {
+        "name": "KXAN",
+        "itemStyle": {"normal": {"color": "rgb(159,8,133)"}},
+        "value": 550
+      },
+      {
+        "name": "Mary Ellen Mark",
+        "itemStyle": {"normal": {"color": "rgb(132,86,49)"}},
+        "value": 462
+      },
+      {
+        "name": "Farrah Abraham",
+        "itemStyle": {"normal": {"color": "rgb(151,70,36)"}},
+        "value": 366
+      },
+      {
+        "name": "Rita Ora",
+        "itemStyle": {"normal": {"color": "rgb(44,72,100)"}},
+        "value": 360
+      },
+      {
+        "name": "Serena Williams",
+        "itemStyle": {"normal": {"color": "rgb(76,14,88)"}},
+        "value": 282
+      },
+      {
+        "name": "NCAA baseball tournament",
+        "itemStyle": {"normal": {"color": "rgb(152,119,72)"}},
+        "value": 273
+      },
+      {
+        "name": "Point Break",
+        "itemStyle": {"normal": {"color": "rgb(10,22,79)"}},
+        "value": 265
+      }
+    ],
+    "textRotation": [
+      0,
+      45,
+      90,
+      -45
+    ],
+    "name": "Google Trends",
+    "textPadding": 0,
+    "type": "wordCloud"
+  }],
+  "tooltip": {"show": true},
+  "title": {
+    "link": "http://www.google.com/trends/hottrends",
+    "text": "Google Trends"
+  }
+}

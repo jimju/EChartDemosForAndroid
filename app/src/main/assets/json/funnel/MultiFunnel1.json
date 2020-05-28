@@ -1,0 +1,164 @@
+{
+  "calculable": true,
+  "legend": {
+    "orient": "vertical",
+    "data": [
+      "展现",
+      "点击",
+      "访问",
+      "咨询",
+      "订单"
+    ],
+    "x": "left"
+  },
+  "series": [
+    {
+      "data": [
+        {
+          "name": "访问",
+          "value": 60
+        },
+        {
+          "name": "咨询",
+          "value": 30
+        },
+        {
+          "name": "订单",
+          "value": 10
+        },
+        {
+          "name": "点击",
+          "value": 80
+        },
+        {
+          "name": "展现",
+          "value": 100
+        }
+      ],
+      "name": "漏斗图",
+      "width": "40%",
+      "x": "5%",
+      "y": "50%",
+      "type": "funnel",
+      "height": "45%"
+    },
+    {
+      "data": [
+        {
+          "name": "访问",
+          "value": 60
+        },
+        {
+          "name": "咨询",
+          "value": 30
+        },
+        {
+          "name": "订单",
+          "value": 10
+        },
+        {
+          "name": "点击",
+          "value": 80
+        },
+        {
+          "name": "展现",
+          "value": 100
+        }
+      ],
+      "name": "金字塔",
+      "width": "40%",
+      "x": "5%",
+      "y": "5%",
+      "sort": "ascending",
+      "type": "funnel",
+      "height": "45%"
+    },
+    {
+      "data": [
+        {
+          "name": "访问",
+          "value": 60
+        },
+        {
+          "name": "咨询",
+          "value": 30
+        },
+        {
+          "name": "订单",
+          "value": 10
+        },
+        {
+          "name": "点击",
+          "value": 80
+        },
+        {
+          "name": "展现",
+          "value": 100
+        }
+      ],
+      "name": "漏斗图",
+      "width": "40%",
+      "x": "55%",
+      "y": "5%",
+      "itemStyle": {"normal": {"label": {"position": "left"}}},
+      "type": "funnel",
+      "height": "45%"
+    },
+    {
+      "data": [
+        {
+          "name": "访问",
+          "value": 60
+        },
+        {
+          "name": "咨询",
+          "value": 30
+        },
+        {
+          "name": "订单",
+          "value": 10
+        },
+        {
+          "name": "点击",
+          "value": 80
+        },
+        {
+          "name": "展现",
+          "value": 100
+        }
+      ],
+      "name": "金字塔",
+      "width": "40%",
+      "x": "55%",
+      "y": "50%",
+      "itemStyle": {"normal": {"label": {"position": "left"}}},
+      "sort": "ascending",
+      "type": "funnel",
+      "height": "45%"
+    }
+  ],
+  "tooltip": {
+    "formatter": "{a} <br/>{b} : {c}%",
+    "trigger": "item"
+  },
+  "toolbox": {
+    "orient": "vertical",
+    "feature": {
+      "saveAsImage": {"show": true},
+      "restore": {"show": true},
+      "dataView": {
+        "show": true,
+        "readOnly": false
+      },
+      "mark": {"show": true}
+    },
+    "show": true,
+    "y": "center"
+  },
+  "title": {
+    "subtext": "纯属虚构",
+    "x": "left",
+    "y": "bottom",
+    "text": "漏斗图"
+  }
+}

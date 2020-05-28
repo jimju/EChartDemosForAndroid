@@ -1,0 +1,313 @@
+{
+  "backgroundColor": "#1b1b1b",
+  "series": [
+    {
+      "pointer": {
+        "shadowBlur": 5,
+        "shadowColor": "#fff"
+      },
+      "data": [{
+        "name": "km/h",
+        "value": 40
+      }],
+      "max": 220,
+      "splitNumber": 11,
+      "type": "gauge",
+      "title": {"textStyle": {
+        "color": "#fff",
+        "shadowBlur": 10,
+        "fontSize": 20,
+        "fontStyle": "italic",
+        "shadowColor": "#fff",
+        "fontWeight": "bolder"
+      }},
+      "axisLabel": {"textStyle": {
+        "color": "#fff",
+        "shadowBlur": 10,
+        "shadowColor": "#fff",
+        "fontWeight": "bolder"
+      }},
+      "min": 0,
+      "axisLine": {"lineStyle": {
+        "color": [
+          [
+            0.09,
+            "lime"
+          ],
+          [
+            0.82,
+            "#1e90ff"
+          ],
+          [
+            1,
+            "#ff4500"
+          ]
+        ],
+        "shadowBlur": 10,
+        "width": 3,
+        "shadowColor": "#fff"
+      }},
+      "name": "速度",
+      "axisTick": {
+        "lineStyle": {
+          "color": "auto",
+          "shadowBlur": 10,
+          "shadowColor": "#fff"
+        },
+        "length": 15
+      },
+      "splitLine": {
+        "lineStyle": {
+          "color": "#fff",
+          "shadowBlur": 10,
+          "width": 3,
+          "shadowColor": "#fff"
+        },
+        "length": 25
+      },
+      "detail": {
+        "offsetCenter": [
+          0,
+          "50%"
+        ],
+        "backgroundColor": "rgba(30,144,255,0.8)",
+        "borderColor": "#fff",
+        "shadowBlur": 5,
+        "borderWidth": 1,
+        "textStyle": {
+          "color": "#fff",
+          "fontWeight": "bolder"
+        },
+        "shadowColor": "#fff"
+      }
+    },
+    {
+      "pointer": {
+        "shadowBlur": 5,
+        "width": 5,
+        "shadowColor": "#fff"
+      },
+      "data": [{
+        "name": "x1000 r/min",
+        "value": 1.5
+      }],
+      "max": 7,
+      "center": [
+        "25%",
+        "55%"
+      ],
+      "endAngle": 45,
+      "splitNumber": 7,
+      "type": "gauge",
+      "title": {
+        "offsetCenter": [
+          0,
+          "-30%"
+        ],
+        "textStyle": {
+          "color": "#fff",
+          "shadowBlur": 10,
+          "fontStyle": "italic",
+          "shadowColor": "#fff",
+          "fontWeight": "bolder"
+        }
+      },
+      "axisLabel": {"textStyle": {
+        "color": "#fff",
+        "shadowBlur": 10,
+        "shadowColor": "#fff",
+        "fontWeight": "bolder"
+      }},
+      "min": 0,
+      "axisLine": {"lineStyle": {
+        "color": [
+          [
+            0.29,
+            "lime"
+          ],
+          [
+            0.86,
+            "#1e90ff"
+          ],
+          [
+            1,
+            "#ff4500"
+          ]
+        ],
+        "shadowBlur": 10,
+        "width": 2,
+        "shadowColor": "#fff"
+      }},
+      "name": "转速",
+      "axisTick": {
+        "lineStyle": {
+          "color": "auto",
+          "shadowBlur": 10,
+          "shadowColor": "#fff"
+        },
+        "length": 12
+      },
+      "splitLine": {
+        "lineStyle": {
+          "color": "#fff",
+          "shadowBlur": 10,
+          "width": 3,
+          "shadowColor": "#fff"
+        },
+        "length": 20
+      },
+      "detail": {
+        "offsetCenter": [
+          25,
+          "20%"
+        ],
+        "borderColor": "#fff",
+        "shadowBlur": 5,
+        "width": 80,
+        "textStyle": {
+          "color": "#fff",
+          "fontWeight": "bolder"
+        },
+        "shadowColor": "#fff",
+        "height": 30
+      },
+      "radius": "50%"
+    },
+    {
+      "pointer": {
+        "shadowBlur": 5,
+        "width": 2,
+        "shadowColor": "#fff"
+      },
+      "startAngle": 135,
+      "data": [{
+        "name": "gas",
+        "value": 0.5
+      }],
+      "max": 2,
+      "center": [
+        "75%",
+        "50%"
+      ],
+      "endAngle": 45,
+      "splitNumber": 2,
+      "type": "gauge",
+      "title": {"show": false},
+      "axisLabel": {"textStyle": {
+        "color": "#fff",
+        "shadowBlur": 10,
+        "shadowColor": "#fff",
+        "fontWeight": "bolder"
+      }},
+      "min": 0,
+      "axisLine": {"lineStyle": {
+        "color": [
+          [
+            0.2,
+            "lime"
+          ],
+          [
+            0.8,
+            "#1e90ff"
+          ],
+          [
+            1,
+            "#ff4500"
+          ]
+        ],
+        "shadowBlur": 10,
+        "width": 2,
+        "shadowColor": "#fff"
+      }},
+      "name": "油表",
+      "axisTick": {
+        "lineStyle": {
+          "color": "auto",
+          "shadowBlur": 10,
+          "shadowColor": "#fff"
+        },
+        "length": 12
+      },
+      "splitLine": {
+        "lineStyle": {
+          "color": "#fff",
+          "shadowBlur": 10,
+          "width": 3,
+          "shadowColor": "#fff"
+        },
+        "length": 15
+      },
+      "detail": {"show": false},
+      "radius": "50%"
+    },
+    {
+      "pointer": {
+        "shadowBlur": 5,
+        "width": 2,
+        "shadowColor": "#fff"
+      },
+      "startAngle": 315,
+      "data": [{
+        "name": "gas",
+        "value": 0.5
+      }],
+      "max": 2,
+      "center": [
+        "75%",
+        "50%"
+      ],
+      "endAngle": 225,
+      "splitNumber": 2,
+      "type": "gauge",
+      "title": {"show": false},
+      "axisLabel": {"textStyle": {
+        "color": "#fff",
+        "shadowBlur": 10,
+        "shadowColor": "#fff",
+        "fontWeight": "bolder"
+      }},
+      "min": 0,
+      "axisLine": {"lineStyle": {
+        "color": [
+          [
+            0.2,
+            "lime"
+          ],
+          [
+            0.8,
+            "#1e90ff"
+          ],
+          [
+            1,
+            "#ff4500"
+          ]
+        ],
+        "shadowBlur": 10,
+        "width": 2,
+        "shadowColor": "#fff"
+      }},
+      "name": "水表",
+      "axisTick": {"show": false},
+      "splitLine": {
+        "lineStyle": {
+          "color": "#fff",
+          "shadowBlur": 10,
+          "width": 3,
+          "shadowColor": "#fff"
+        },
+        "length": 15
+      },
+      "detail": {"show": false},
+      "radius": "50%"
+    }
+  ],
+  "tooltip": {"formatter": "{a} <br/>{c} {b}"},
+  "toolbox": {
+    "feature": {
+      "saveAsImage": {"show": true},
+      "restore": {"show": true},
+      "mark": {"show": true}
+    },
+    "show": true
+  }
+}

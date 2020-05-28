@@ -1,0 +1,67 @@
+{
+  "calculable": false,
+  "series": [{
+    "data": [
+      {
+        "name": "三星",
+        "value": 6
+      },
+      {
+        "name": "小米",
+        "value": 4
+      },
+      {
+        "name": "苹果",
+        "value": 4
+      },
+      {
+        "name": "华为",
+        "value": 2
+      },
+      {
+        "name": "联想",
+        "value": 2
+      },
+      {
+        "name": "魅族",
+        "value": 1
+      },
+      {
+        "name": "中兴",
+        "value": 1
+      }
+    ],
+    "name": "矩形图",
+    "itemStyle": {
+      "normal": {
+        "borderWidth": 1,
+        "label": {
+          "formatter": "{b}",
+          "show": true
+        }
+      },
+      "emphasis": {"label": {"show": true}}
+    },
+    "type": "treemap"
+  }],
+  "tooltip": {
+    "formatter": "{b}: {c}",
+    "trigger": "item"
+  },
+  "toolbox": {
+    "feature": {
+      "saveAsImage": {"show": true},
+      "restore": {"show": true},
+      "dataView": {
+        "show": true,
+        "readOnly": false
+      },
+      "mark": {"show": true}
+    },
+    "show": true
+  },
+  "title": {
+    "subtext": "虚构数据",
+    "text": "手机占有率"
+  }
+}

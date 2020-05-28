@@ -1,0 +1,215 @@
+<!DOCTYPE HTML >
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ECharts">
+    <title>ECharts · Example</title>
+
+    <!-- 导入script -->
+    <!--<script src="http://echarts.baidu.com/echarts2/doc/example/www/js/echarts.js"></script>-->
+    <script src="./js/echarts-all.js"></script>
+    <script src="./jquery-3.2.0.js"></script>
+    <script src="theme/blue.js"></script>
+    <script src="theme/dark.js"></script>
+    <script src="theme/gray.js"></script>
+    <script src="theme/green.js"></script>
+    <script src="theme/helianthus.js"></script>
+    <script src="theme/infographic.js"></script>
+    <script src="theme/macarons.js"></script>
+    <script src="theme/macarons2.js"></script>
+    <script src="theme/mint.js"></script>
+    <script src="theme/red.js"></script>
+    <script src="theme/roma.js"></script>
+    <script src="theme/sakura.js"></script>
+    <script src="theme/shine.js"></script>
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+
+
+    </style>
+</head>
+
+<body onLoad="showDebugMessage('页面加载中...')">
+<!--<hr/>-->
+<!--style="height:300px; border: 1px solid #f00"-->
+<!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+<div id="main" style="width: 400px;height:600px;"></div>
+<!--<hr/>-->
+<script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('main'));
+ 
+        // 指定图表的配置项和数据
+        var option = {
+			"legend": {
+    "borderColor": "#999999",
+    "textStyle": {
+      "fontFamily": "Arial, Verdana, sans-serif",
+      "fontSize": 14,
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "decoration": "none",
+      "color": "rgba(3,3,3,1.00)"
+    },
+    "x": "right",
+    "y": "top",
+    "itemGap": 10,
+    "show": true,
+    "z": 4,
+    "itemWidth": 20,
+    "data": [
+      "人数"
+    ],
+    "selected":"人数",
+    "selectedMode": true,
+    "orient": "vertical",
+    "itemHeight": 14
+  },
+  "renderAsImage": false,
+  "animation": true,
+  "series": [
+    {
+      "roam": false,
+      "mapType": "china",
+      "data": [
+        {
+          "name": "北京",
+          "value": 16
+        },
+        {
+          "name": "上海",
+          "value": 3
+        },
+        {
+          "name": "重庆",
+          "value": 10
+        },
+        {
+          "name": "广西",
+          "value": 46
+        },
+        {
+          "name": "广东",
+          "value": 98
+        },
+        {
+          "name": "湖南",
+          "value": 33
+        },
+        {
+          "name": "浙江",
+          "value": 5
+        },
+        {
+          "name": "江西",
+          "value": 33
+        },
+        {
+          "name": "湖北",
+          "value": 10
+        },
+        {
+          "name": "福建",
+          "value": 56
+        },
+        {
+          "name": "贵州",
+          "value": 12
+        },
+        {
+          "name": "海南",
+          "value": 28
+        }
+      ],
+      "name": "人员数量",
+      "type": "map",
+      "itemStyle": {
+        "normal": {
+          "borderWidth": 0.2,
+          "borderColor": "rgba(0, 0, 0, 0.3)",
+		  "color": "rgba(249, 249, 249,0.5)",
+          "label": {
+            "show": true,
+            "textStyle": {
+              "color": "rgb(3, 3, 3)"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "calculable": false,
+  "dataRange": {
+    "hoverLink": false,
+    "x": "left",
+    "splitList": [
+      {
+        "start": 80,
+        "color": "#5CA3DC"
+      },
+      {
+        "start": 60,
+        "end": 80,
+        "color": "#709AEA"
+      },
+      {
+        "start": 40,
+        "end": 60,
+        "color": "#81C1F1"
+      },
+      {
+        "start": 20,
+        "end": 40,
+        "color": "#97CDF5"
+      },
+      {
+        "start": 10,
+        "end": 20,
+        "color": "#BBE7FC"
+      },
+      {
+        "end": 10,
+        "color": "#D1F5FF"
+      }
+    ],
+    "y": "bottom",
+    "realtime": false,
+    "show": true,
+    "calculable": false
+  },
+  "tooltip": {
+    "transitionDuration": 0.40000000000000002,
+    "borderColor": "rgba(3,3,3,1.00)",
+    "padding": 5,
+    "show": true,
+    "islandFormmater": "{a} < br\/>{b} : {c}",
+    "backgroundColor": "rgba(0,0,0,0.70)",
+    "trigger": "item",
+    "show": true,
+    "z": 8,
+    "showTitle": false,
+    "showContent": true,
+    "enterable": true,
+    "showDelay": 20,
+    "hideDelay": 100,
+    "borderWidth": 0,
+    "zlevel": 1,
+    "borderRadius": 4
+  }
+};
+ 
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+
+
+</script>
+
+</body>
+
+</html>
